@@ -1,0 +1,535 @@
+body {
+    color: #3a3f52;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header CSS Start*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 4px;
+    background: #fff;
+    z-index: 1000;
+}
+
+.navbar-collapse {
+    padding: 10px 0px;
+}
+
+
+.nav-link {
+    font-size: 12px;
+    color: #53627c;
+}
+
+.nav-button {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.try-btn {
+    font-size: 12px;
+    color: white;
+    background: #6772E5;
+    border: 2px solid #6772E5;
+    padding: 8px 18px;
+    border-radius: 2px;
+}
+
+.try-btn:hover {
+    background: transparent;
+    border: 2px solid #6772E5;
+}
+
+
+/*header CSS End*/
+
+/*Banner CSS Start*/
+.banner-area {
+    background: #f6f8f9;
+    padding: 100px 0px;
+}
+
+.banner-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+}
+
+.banner-content h4 {
+    font-size: 16px;
+    color: #0095f7;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.banner-content span {
+    font-weight: 700;
+}
+
+.banner-content p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #8da2b5;
+    padding: 8px 0px;
+}
+
+.banner-btn {
+    padding: 8px 30px;
+    background: #0095F7;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid #0095F7;
+
+
+
+}
+
+.banner-btn:hover {
+    background: transparent;
+    border: 2px solid #0095F7;
+}
+
+/*Banner CSS End*/
+
+/*Search Insights CSS Start*/
+#search-insights {
+    transition: .4s
+}
+
+.search-insights {
+    padding: 100px 0px;
+}
+
+.search-insights-content {}
+
+.search-insights-content h4 {
+    font-size: 16px;
+    color: #0095f7;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.search-insights-content h1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.search-insights-content p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    padding: 8px 0px;
+}
+
+.free-trial-btn {
+    background: #0095F7;
+    border: 2px solid #0095F7;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 2px;
+}
+
+.free-trial-btn:hover {
+    background: transparent;
+    border: 2px solid #0095F7;
+}
+
+.search-insights-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/*Search Insights CSS End*/
+
+
+/*Testimonial CSS Start*/
+
+.testimonial-area {
+    padding: 100px 0px;
+    background: #f6f8f9;
+}
+
+.title h1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+}
+
+.testimonial-card {
+    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border: none;
+}
+
+
+
+.testimonial-img {
+    padding-bottom: 16px;
+    padding: 0px 0px 10px;
+}
+
+.testimonial-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    padding: 0px 0px 10px;
+}
+
+.testimonial-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.rating {
+    color: white;
+    border-radius: 50px;
+    padding: 2px 12px;
+    background: #0095f7;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.testimonial-content h6 {
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.rating i {
+    font-size: 12px;
+    transform: translateY(-15%);
+}
+
+.testimonial-content p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #8da2b5;
+
+
+}
+
+.testimonial-content h5 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #53627c;
+    margin-bottom: 0px;
+    word-spacing: 6px;
+    line-height: 1.6;
+}
+
+/*Testimonial CSS End*/
+
+
+/*Prcing CSS Start*/
+.pricing-area {
+    padding: 100px 0px;
+}
+
+.pricing-plan {
+    padding: 15px 0px;
+    border: 1px solid #F8F9FB;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
+    margin-top: 30px;
+}
+
+.pricing-content {}
+
+.pricing-content h2 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #6772e5;
+
+}
+
+.pricing-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 0px 0px;
+}
+
+.pricing-content h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8da2b5;
+}
+
+.pricing-content h4 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 10px 0px;
+}
+
+.pricing-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8da2b5;
+}
+
+.pricing-content p i {
+    font-size: 16px;
+    color: #6772e5;
+    margin-right: 10px;
+}
+
+.pricing-content p span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6772e5;
+}
+
+.pricing-btn {
+    margin-top: 16px;
+    padding: 13px 0px;
+    width: 100%;
+    border-radius: 2px;
+    background: #6772e5;
+    border: 2px solid #6772e5;
+    color: white;
+}
+
+.pricing-btn:hover {
+    background: transparent;
+    border: 2px solid #6772e5;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+/*02*/
+
+
+.pricing-plan-02 {
+    padding: 15px 0px;
+    border: 1px solid #F8F9FB;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
+    margin-top: 30px;
+}
+
+.pricing-content-02 {}
+
+.pricing-content-02 h2 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #0095f7;
+
+}
+
+.pricing-content-02 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 0px 0px;
+}
+
+.pricing-content-02 h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8da2b5;
+}
+
+.pricing-content-02 h4 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 10px 0px;
+}
+
+.pricing-content-02 p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8da2b5;
+}
+
+.pricing-content-02 p i {
+    font-size: 16px;
+    color: #0095f7;
+    margin-right: 10px;
+}
+
+.pricing-content-02 p span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0095f7;
+}
+
+.pricing-btn-02 {
+    padding: 13px 0px;
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 2px;
+    background: #0095f7;
+    border: 2px solid #0095f7;
+    color: white;
+}
+
+.pricing-btn-02:hover {
+    background: transparent;
+    border: 2px solid #0095f7;
+}
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+color: #0095f7;
+/*Prcing CSS End*/
+
+
+/*Call to action CSS start*/
+
+section .call-to-action-area {
+    height: 500vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.call-to-action {
+    padding: 110px 0px;
+    color: white
+}
+
+.call-to-action p {
+    color: white;
+}
+
+.call-to-action-btn {
+    padding: 13px 50px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: #0095f7;
+    margin-top: 50px;
+}
+
+.call-to-action-btn:hover {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+/*Call to action CSS End*/
+
+
+
+/*Footer CSS Start*/
+
+footer {
+    background: #292C31;
+    padding: 60px 0px;
+}
+
+.main-footer h4 {
+    font-size: 16px;
+    color: #aeb3bd;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.main-footer a {
+
+    text-decoration: none;
+    color: #62656a;
+
+
+}
+
+.main-footer a:hover {
+    color: #007bff;
+}
+
+.main-footer p {
+    margin-bottom: -10px;
+    font-size: 14px;
+    color: #62656a;
+    font-weight: 300;
+}
+
+.mail-text {
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+.mail-text span a {
+    color: #0095f7;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+/*Sub Footer CSS*/
+.sub-footer {
+    padding: 40px 0px 0px;
+}
+
+.social-icons i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #62656A;
+    font-weight: 300;
+}
+
+.social-icons i:hover {
+    color: #0095f7;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.sub-footer P {
+    font-size: 12px;
+    font-weight: 400;
+    color: #62656a;
+
+}
+
+
+.sub-footer a {
+    font-size: 12px;
+    color: #0095f7;
+    font-weight: 400;
+}
+
+.hr {
+    background: #3c3f45;
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+/*Footer CSS End*/
